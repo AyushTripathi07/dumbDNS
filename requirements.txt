@@ -1,0 +1,6 @@
+dnslib==0.9.25
+flexcache==0.3
+flexparser==0.4
+Pint==0.24.4
+platformdirs==4.3.6
+typing_extensions==4.12.2
