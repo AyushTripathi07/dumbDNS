@@ -46,6 +46,6 @@ class CustomDNSResolver:
 
 # Start the DNS server
 resolver = CustomDNSResolver()
-server = DNSServer(resolver, port=5353, address="127.0.0.1", tcp=False)
-print("Starting DNS server on 127.0.0.1:5353...")
+server = DNSServer(resolver, port=5353, address="0.0.0.0", tcp=False)
+print("Starting DNS server on 0.0.0.0:5353...")
 server.start()
